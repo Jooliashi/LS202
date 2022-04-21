@@ -1,0 +1,73 @@
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+  width: 600px;
+  margin: 0 auto;
+  border: none;
+  padding: 0;
+}
+
+dd {
+  margin: 0 0 25px 0;
+}
+
+dt {
+  margin-bottom: 5px;
+}
+
+.name {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.left {
+  padding-right: 5px;
+}
+
+.right {
+  padding-left: 5px;
+}
+
+.home {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.second {
+  width: 10%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.third {
+  width: 40%;
+}
+
+dl {
+  margin-bottom: 0;
+}
+
+dl + dl{
+  margin-top: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    height: 30px;
+    font: normal 14px Helvetica, Arial, sans-serif;
+    padding: 3px 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+textarea {
+  height: auto;
+  resize: vertical;
+}
